@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleOrcamento.css">
+    <link rel="stylesheet" href="/js/orcamento.js">
+    <title>Orçamento - VSL Engenharia</title>
+</head>
+<body>
+
+    <form action="https://sheetdb.io/api/v1/7u6fdvz2besiu" method="post" name="formularioOrcamento" class="formularioOrcamento">
+        <div class="title-container">
+            <h1>Faça seu orçamento conosco</h1>
+            <span>Estamos preparados para te atender</span>
+        </div>
+
+        <fieldset>
+            <div class="form-row">
+                <p class="input-container">
+                    <label for="character-name">Nome</label>
+                    <input type="text" id="character-name" name="characterName" minlength="2" required>
+                </p>
+                
+                <p class="input-container">
+                    <label for="last-name">Sobrenome</label>
+                    <input type="text" id="last-name" name="lastName" minlength="2" required>
+                </p>
+            </div>
+
+            <div>
+                <p class="input-container">
+                    <label for="phone-number">Telefone</label>
+                    <input type="tel" id="phone-number" name="phoneNumber" required>
+                </p>
+
+                <p class="input-container">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+            </div>
+
+            <p class="input-container">
+                <label for="character-service">Tipo de serviço a ser feito</label>
+                <select name="characterService" id="character-service" required>
+                    <option value="" hidden>... Selecione uma ...</option>
+                    <option value="1">Aplicação de revestimento e de resinas em interiores e exteriores</option>
+                    <option value="2">Fabricação de esquadrias de metal</option>
+                    <option value="3">Fabricação de estruturas metálicas</option>
+                    <option value="4">Instalação de máquinas e equipamentos industriais</option>
+                    <option value="5">Manutenção e reparação de equipamentos hidráulicos e pneumáticos, exceto válvulas</option>
+                    <option value="6">Manutenção e reparação de motores elétricos</option>
+                    <option value="7">Manutenção e reparação de máquinas e equipamentos para uso geral não especificados anteriormente</option>
+                    <option value="8">Manutenção e reparação de máquinas, aparelhos e materiais elétricos não especificados anteriormente</option>
+                    <option value="9">Manutenção e reparação de tanques, reservatórios metálicos e caldeiras, exceto para veículos</option>
+                    <option value="10">Manutenção e reparação de válvulas industriais</option>
+                    <option value="11">Manutenção em compressores</option>
+                    <option value="12">Montagem de estruturas metálicas</option>
+                    <option value="13">Obras de alvenaria</option>
+                    <option value="14">Obras de montagem industrial</option>
+                    <option value="15">Serviços de caldeiraria</option>
+                    <option value="16">Serviços de tratamento e revestimento em metais</option>
+                    <option value="17">Serviços de usinagem, tornearia e solda</option>
+                    <option value="18">Outro</option>
+                </select>
+            </p>
+
+            <p class="input-container character-image-container">
+                <label for="character-image">
+                    Caso haja a necessidade inclua imagens referente ao serviço a ser feito
+                    <span>Opcional - Formatos aceitos: PNG, JPG, JPEG e PDF</span>
+                </label>
+                <input type="file" id="character-image" name="characterImage" accept=".png, .jpg, .jpeg, .pdf">
+            </p>
+
+            <p class="input-container">
+                <label for="service">Descreva o serviço a ser feito</label>
+                <textarea name="service" id="service" minlength="10" maxlength="1000" required></textarea>
+            </p>
+
+            <button type="submit" id="enviarOrcamento" name="enviarOrcamento" class="enviarOrcamento">
+                Enviar pedido de orçamento
+            </button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
