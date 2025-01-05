@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Moderustic", sans-serif;
+}
+
+:root{
+    --azul-escuro: #17123c;
+    --verde: #2f9364;
+    --orange: #ff7c37;
+    --degrade-btn: linear-gradient(#72b361, #206917);
+    --color-p: #a1a1a1;
+    --color-p2: #868585;
+}
+
+.background-azul{
+    background: var(--azul-escuro);
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+section,
+footer{
+    padding: 2.7rem 0;
+}
+
+.btn-gradiente{
+    padding: 10px 25px;
+    font-size: 35px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-image: var(--degrade-btn);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+}
+
+.ul li{
+    margin: 0 35px;
+    font-size: 15px;
+}
+
+.ul li a{
+    color: white;
+}
+
+main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main-text{
+    width: 600px;
+    color: white;
+}
+
+.main-text h1{
+    font-size: 4.5rem;
+}
+
+.main-text div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-img{
+    width: 50%;
+}
+
+.menu-icon{
+    display: none;
+    position: relative;
+    z-index: 10;
+}
+
+.resultados{
+    background: #14924a;
+}
+
+.resultados .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resultados .resultados-text{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+.conheca h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/*
+Parte da estrutura metálica
+*/
+.estrutura-metalica .container{
+    display: flex;
+    align-items: center;
+}
+.estrutura-metalica .estrutura-metalica-img{
+    width: 50%;
+}
+.estrutura-metalica .estrutura-metalica-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.estrutura-metalica .estrutura-metalica-text{
+    width: 50%;
+    padding-left: 90px;
+}
+.estrutura-metalica .estrutura-metalica-text h2{
+    font-size: 2.5em;
+}
+.estrutura-metalica .estrutura-metalica-text p{
+    margin: 20px 0;
+    color: var(--color-p);
+}
+.estrutura-metalica .estrutura-metalica-text p b{
+    color: black;
+    font-size: 25px;
+}
+/*
+Parte da fabricação
+*/
+.fabricacao .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.fabricacao .fabricacao-img{
+    width: 50%;
+    margin: 50px;
+}
+.fabricacao .fabricacao-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.fabricacao .fabricacao-text{
+    width: 50%;
+    padding-left: 0px;
+}
+.fabricacao .fabricacao-text h2{
+    font-size: 2.5em;
+}
+.fabricacao .fabricacao-text p{
+    margin: 20px 0;
+    color: var(--color-p);
+}
+.fabricacao .fabricacao-text p b{
+    color: black;
+    font-size: 25px;
+}
+/*
+Parte da usinagem
+*/
+.usinagem .container{
+    display: flex;
+    align-items: center;
+}
+.usinagem .usinagem-img{
+    width: 50%;
+}
+.usinagem .usinagem-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.usinagem .usinagem-text{
+    width: 50%;
+    padding-left: 90px;
+}
+.usinagem .usinagem-text h2{
+    font-size: 2.5em;
+}
+.usinagem .usinagem-text p{
+    margin: 20px 0;
+    color: var(--color-p);
+}
+.usinagem .usinagem-text p b{
+    color: black;
+    font-size: 25px;
+}
+/*
+Parte do cilindro
+*/
+.cilindro .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.cilindro .cilindro-img{
+    width: 50%;
+    margin: 50px;
+}
+.cilindro .cilindro-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.cilindro .cilindro-text{
+    width: 50%;
+    padding-left: 0px;
+}
+.cilindro .cilindro-text h2{
+    font-size: 2.5em;
+}
+.cilindro .cilindro-text p{
+    margin: 20px 0;
+    color: var(--color-p);
+}
+.cilindro .cilindro-text p b{
+    color: black;
+    font-size: 25px;
+}
+
+footer{
+    background-color: var(--azul-escuro);
+}
+footer .container{
+    display: flex;
+    color: white;
+}
+footer .container ul{
+    width: 25%;
+}
+footer .container h3{
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+footer .container .instagram img{
+    margin-right: 10px;
+}
+footer .container ul > p{
+    margin-bottom: 40px;
+}
+footer .container li{
+    margin: 10px 0;
+}
+footer .container a{
+    color: white;
+}
+
+@media (max-width: 960px){
+    .menu-icon{
+        display: block;
+    }
+    .ul{
+        position: fixed;
+        background: var(--azul-escuro);
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: 100%;
+        transition: 0.3s;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ul li{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .ul.ativo{
+        left: 0;
+    }
+    main .container{
+        flex-direction: column;
+    }
+    main .container .main-img{
+        width: 100%;
+        text-align: center;
+    }
+    main .container .main-text{
+        width: 100%;
+        text-align: center;
+    }
+    main .container .main-text h1{
+        font-size: 4rem;
+    }
+    main .container .main-text div{
+        justify-content: center;
+    }
+    .resultados .container{
+        flex-direction: column;
+    }
+    .resultados .resultados-text{
+        width: 100%;
+        text-align: center;
+    }
+    /*
+    Estrutura metálica
+    */
+    .estrutura-metalica .container{
+        flex-direction: column-reverse;
+    }
+    .estrutura-metalica .estrutura-metalica-text,
+    .estrutura-metalica .estrutura-metalica-img{
+        width: 100%;
+        text-align: center;
+    }
+    /*
+    Fabricação
+    */
+    .fabricacao .container{
+        flex-direction: column-reverse;
+    }
+    .fabricacao .fabricacao-text,
+    .fabricacao .fabricacao-img{
+        width: 100%;
+        text-align: center;
+    }
+    /*
+    Usinagem
+    */
+    .usinagem .container{
+        flex-direction: column-reverse;
+    }
+    .usinagem .usinagem-text,
+    .usinagem .usinagem-img{
+        width: 100%;
+        text-align: center;
+    }
+    /*
+    Cilindro
+    */
+    .cilindro .container{
+        flex-direction: column-reverse;
+    }
+    .cilindro .cilindro-text,
+    .cilindro .cilindro-img{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .container{
+        flex-direction: column;
+    }
+    footer .container ul{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:440px){
+    .resultados{
+        flex-direction: column;
+    }
+    main .container .main-text h1 {
+        font-size: 3rem;
+    }
+}
