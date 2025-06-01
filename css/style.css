@@ -247,6 +247,35 @@ Parte do cilindro
     color: black;
     font-size: 25px;
 }
+/*
+Parte das grades
+*/
+.grades .container{
+    display: flex;
+    align-items: center;
+}
+.grades .grades-img{
+    width: 50%;
+}
+.grades .grades-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.grades .grades-text{
+    width: 50%;
+    padding-left: 90px;
+}
+.grades .grades-text h2{
+    font-size: 2.5em;
+}
+.grades .grades-text p{
+    margin: 20px 0;
+    color: var(--color-p);
+}
+.grades .grades-text p b{
+    color: black;
+    font-size: 25px;
+}
 
 footer{
     background-color: var(--azul-escuro);
