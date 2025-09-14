@@ -366,6 +366,7 @@ footer .container a{
     .estrutura-metalica .estrutura-metalica-img{
         width: 100%;
         text-align: center;
+        padding-left: 0px;
     }
     /*
     Fabricação
@@ -388,6 +389,7 @@ footer .container a{
     .usinagem .usinagem-img{
         width: 100%;
         text-align: center;
+        padding-left: 0px;
     }
     /*
     Cilindro
@@ -410,6 +412,7 @@ footer .container a{
     .grades .grades-img{
         width: 100%;
         text-align: center;
+        padding-left: 0px;
     }
 
     footer .container{
