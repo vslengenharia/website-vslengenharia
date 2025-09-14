@@ -400,6 +400,17 @@ footer .container a{
         width: 100%;
         text-align: center;
     }
+    /*
+    Grades
+    */
+    .grades .container{
+        flex-direction: column-reverse;
+    }
+    .grades .grades-text,
+    .grades .grades-img{
+        width: 100%;
+        text-align: center;
+    }
 
     footer .container{
         flex-direction: column;
@@ -408,6 +419,8 @@ footer .container a{
         width: 100%;
         margin-bottom: 30px;
     }
+}
+@media (max-width:440px){
     .resultados{
         flex-direction: column;
     }
@@ -415,6 +428,3 @@ footer .container a{
         font-size: 3rem;
     }
 }
-/* @media (max-width:440px){
-    
-} */
