@@ -304,7 +304,7 @@ footer .container a{
     color: white;
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .menu-icon{
         display: block;
     }
@@ -350,12 +350,11 @@ footer .container a{
         width: 100%;
         text-align: center;
     }
-    .main-img{
-        width: 100%; 
+
+    .main-img img{
+        max-width: 100%;
         height: auto;
-        object-fit: cover;
-        margin-bottom: 30px;
-        /* overflow: hidden; */
+        object-fit: contain;
     }
     /*
     Estrutura metálica
