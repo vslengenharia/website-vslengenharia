@@ -304,7 +304,7 @@ footer .container a{
     color: white;
 }
 
-@media (width: 960px){
+@media (max-width: 960px){
     .menu-icon{
         display: block;
     }
@@ -408,8 +408,6 @@ footer .container a{
         width: 100%;
         margin-bottom: 30px;
     }
-}
-@media (max-width:440px){
     .resultados{
         flex-direction: column;
     }
@@ -417,3 +415,6 @@ footer .container a{
         font-size: 3rem;
     }
 }
+/* @media (max-width:440px){
+    
+} */
