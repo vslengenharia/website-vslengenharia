@@ -353,8 +353,9 @@ footer .container a{
     .main-img{
         width: 100vw; 
         height: auto;
-        object-fit: cover;
+        /* object-fit: cover; */
         margin-bottom: 30px;
+        overflow: hidden;
     }
     /*
     Estrutura metálica
