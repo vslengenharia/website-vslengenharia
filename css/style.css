@@ -354,6 +354,8 @@ footer .container a{
         width: 100%; 
         height: auto;
         object-fit: cover;
+        text-align: center;
+        padding-left: 0px;
         margin-bottom: 30px;
         /* overflow: hidden; */
     }
